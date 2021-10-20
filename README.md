@@ -58,6 +58,8 @@ More information at https://docs.datadoghq.com/real_user_monitoring/faq/content_
 
 ## Usage
 
+See https://docs.datadoghq.com/real_user_monitoring/browser/ for all options.
+
 
 
 ## Compatibility
@@ -65,10 +67,6 @@ More information at https://docs.datadoghq.com/real_user_monitoring/faq/content_
 * Ember.js v3.20 or above
 * Ember CLI v3.20 or above
 * Node.js v12 or above
-
-## Usage
-
-[Longer description of how to use the addon in apps.]
 
 ## Contributing
 
