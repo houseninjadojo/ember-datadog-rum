@@ -10,7 +10,7 @@ ember install ember-datadog-rum
 
 ### Configuration
 
-Add your RUM config options to `config/environment`:
+Add your RUM config options to `config/environment.js`:
 
 [RUM Config Options](https://docs.datadoghq.com/real_user_monitoring/browser/)
 
@@ -39,6 +39,22 @@ module.exports = function (environment) {
   }
 }
 ```
+
+### Content Security Policy
+
+If you're using [ember-cli-content-security-policy](https://github.com/rwjblue/ember-cli-content-security-policy), you'll need to modify the content security policy. In `config/environment.js`, add this to the `ENV` hash (modify as necessary):
+
+```javascript
+contentSecurityPolicy: {
+  // Intake URLs
+  'connect-src': "'self' https://*.logs.datadoghq.com https://*.browser-intake-datadoghq.com",
+
+  // Session Replay worker
+  'worker-src': "blob:;"
+}
+```
+
+More information at https://docs.datadoghq.com/real_user_monitoring/faq/content_security_policy/
 
 ## Usage
 

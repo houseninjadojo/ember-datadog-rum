@@ -28,7 +28,8 @@ export default class DatadogService extends Service {
     this.config = { ...datadog };
     this.config.site ||= 'datadoghq.com';
     this.config.env = environment;
-    this.datadogRum = datadogRum.init(this.config);
+    datadogRum.init(this.config);
+    this.datadogRum = datadogRum;
   }
 
   /**

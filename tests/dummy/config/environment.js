@@ -21,6 +21,11 @@ module.exports = function (environment) {
       // Here you can pass flags/options to your application instance
       // when it is created
     },
+
+    datadog: {
+      applicationId: '1234',
+      clientToken: '1234',
+    },
   };
 
   if (environment === 'development') {
