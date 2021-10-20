@@ -5,7 +5,7 @@ Adds [Datadog Real User Monitoring SDK](https://docs.datadoghq.com/real_user_mon
 ## Installation
 
 ```sh
-ember install ember-datadog-rum
+ember install @houseninja/ember-datadog-rum
 ```
 
 ### Configuration
