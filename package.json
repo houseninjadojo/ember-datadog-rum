@@ -1,5 +1,5 @@
 {
-  "name": "ember-datadog-rum",
+  "name": "@houseninja/ember-datadog-rum",
   "version": "0.0.1",
   "description": "Ember Addon for Datadog Real User Monitoring (RUM)",
   "keywords": [
