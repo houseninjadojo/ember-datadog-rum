@@ -966,28 +966,28 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@datadog/browser-core@3.6.12":
-  version "3.6.12"
-  resolved "https://registry.yarnpkg.com/@datadog/browser-core/-/browser-core-3.6.12.tgz#6fcdbd6809656544289f7684f03b88a598cc3345"
-  integrity sha512-On/09LrlSxodRvbSPJqEvYlX8MoK9Ae4k7UezqvX2+Uk3JYfV6XBSPHFd4ZNz0rLTjvfynAr8XTOOIRMEitrSg==
+"@datadog/browser-core@3.11.0":
+  version "3.11.0"
+  resolved "https://registry.yarnpkg.com/@datadog/browser-core/-/browser-core-3.11.0.tgz#84b9168e35bdb0fdc42c376bb33d79357791bf61"
+  integrity sha512-NfvEE+mImWYKVcN9BkfNSYVwRCL4SFUrZrpKX8zDdtwGPa7E9+L1l0nwC35b4CCGwS1dPoTDzWKkAsC7f2VmPg==
   dependencies:
     tslib "^1.10.0"
 
-"@datadog/browser-rum-core@3.6.12":
-  version "3.6.12"
-  resolved "https://registry.yarnpkg.com/@datadog/browser-rum-core/-/browser-rum-core-3.6.12.tgz#e99a3f55dd4a71c5d24786c45da95565528df2cc"
-  integrity sha512-acP2O5KIZ7hDwAJZsXoHTfE7yywW9oB9/g4GdKTiqN3yN/svymROi51JpY2k3pGo9VwcQQMNOUbg1d66RShuTA==
+"@datadog/browser-rum-core@3.11.0":
+  version "3.11.0"
+  resolved "https://registry.yarnpkg.com/@datadog/browser-rum-core/-/browser-rum-core-3.11.0.tgz#8f0225723b6ce020c1609037f4abb462293b952c"
+  integrity sha512-rwuKyjlXR+s16Bq8cynb/Fp+eZRt4f5+RUB2ryZQO/3gJAa0c/07Z3ZQbBvyxkd4XWV++nvhWMp4jbUskUQ2Ag==
   dependencies:
-    "@datadog/browser-core" "3.6.12"
+    "@datadog/browser-core" "3.11.0"
     tslib "^1.10.0"
 
-"@datadog/browser-rum@^3.6.12":
-  version "3.6.12"
-  resolved "https://registry.yarnpkg.com/@datadog/browser-rum/-/browser-rum-3.6.12.tgz#7277f4f440536056a623f05ccd7da8ca4992f3aa"
-  integrity sha512-YdvxNyx1+Sl0jXTCjXd/Ia4I3dqdr8FdD0QmrIAAAkACU9ioaXkRSpsSX+g96+AiiHR6KsZdxdFglESQV43MQQ==
+"@datadog/browser-rum@^3.11.0":
+  version "3.11.0"
+  resolved "https://registry.yarnpkg.com/@datadog/browser-rum/-/browser-rum-3.11.0.tgz#a2a6329b8e7a97197d1d6f49d304911ea55bc80c"
+  integrity sha512-3CQOass81VaSube5FiF/uttHWgLGwwH24fyZL1swy4zgwdzBQF7naVfo3YLwWw7P1S0WxZuAKCt8PrqbV/En+Q==
   dependencies:
-    "@datadog/browser-core" "3.6.12"
-    "@datadog/browser-rum-core" "3.6.12"
+    "@datadog/browser-core" "3.11.0"
+    "@datadog/browser-rum-core" "3.11.0"
     tslib "^1.10.0"
 
 "@ember-data/rfc395-data@^0.0.4":
